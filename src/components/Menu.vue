@@ -7,12 +7,12 @@
             <li class="menu-nav px-10">
                 <a href="">Dashboard</a>
             </li>
-            <li><a href="">Relatórios</a></li>
-            <li><a href="">Conteúdos</a></li>
-            <li><a href="">Layout</a></li>
-            <li><a href="">Traduções</a></li>
-            <li><a href="">Clientes</a></li>
-            <li><a href="">Configurações</a></li>
+            <li class="menu-nav px-10"><a href="">Relatórios</a></li>
+            <li class="menu-nav px-10"><a href="">Conteúdos</a></li>
+            <li class="menu-nav px-10"><a href="">Layout</a></li>
+            <li class="menu-nav px-10"><a href="">Traduções</a></li>
+            <li class="menu-nav px-10"><a href="">Clientes</a></li>
+            <li class="menu-nav px-10"><a href="">Configurações</a></li>
         </nav>
         <div>
             svg
@@ -45,7 +45,7 @@
         background-color: #1A1A1A;
     }
     
-    .menu-nav:hover{ /* teste */
-        background-color: red;
+    .menu-nav:hover, a:hover{
+        background-color: #505050;
     }
 </style>
